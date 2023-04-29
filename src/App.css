@@ -1,0 +1,46 @@
+.body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.landing {
+  height: 100vh;
+  width: 100vw;
+}
+
+.header, a:link{
+  color: #9a0508
+}
+
+.header, a:visited{
+  color: #9a0508
+}
+
+.header, a:hover{
+  color: white
+}
+
+.header, a:active{
+  color: white
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-right: 50px;
+  padding-left: 50px;
+  align-items: center;
+  background-color: black;
+  border-bottom-width: 3px;
+  border-color: #9a0508
+}
+
+.nav-list ,ul {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  list-style-type: none;
+  justify-content: space-between;
+  min-width: 15vw;
+}
