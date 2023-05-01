@@ -23,21 +23,22 @@ function Products(){
             width: "100%",
             height: "100%",
             display: "flex",
-            justifyContent: "space-around",
+            justifyContent: "space-evenly",
             alignItems: 'center',
-            flexDirection: "column"
+            flexDirection: "row"
         },
         product: {
-            width: "100%",
+            width: "10%",
             display: "flex",
-            flexDirection: "row",
+            flexDirection: "column",
             justifyContent: "space-evenly"
         },
         product_image: {
            
         },
         product_description: {
-            color: "white"
+            color: "white",
+            textAlign: "center"
         },
         product_container:{
             display: "flex",
@@ -53,7 +54,7 @@ function Products(){
                     <div style={ProductsStyling.product}>
                         <img style={ProductsStyling.product_image} src="https://picsum.photos/200"></img>
                         <div style={ProductsStyling.product_container}>
-                            <h3 style={ProductsStyling.product_description}>BanHatred Hoodie</h3>
+                            <h3 style={ProductsStyling.product_description}>BANHATRED Hoodie - $200</h3>
                             <h4 style={ProductsStyling.product_description}>For those colder hate-filled days</h4>
                         </div>
                         
@@ -61,10 +62,10 @@ function Products(){
                     <div style={ProductsStyling.product}>
                         <img style={ProductsStyling.product_image} src="https://picsum.photos/200"></img>
                         <div style={ProductsStyling.product_container}>
-                            <h3 style={ProductsStyling.product_description}>BanHatred Tshirt</h3>
+                            <h3 style={ProductsStyling.product_description}>BANHATRED T-Shirt - $200</h3>
                             <h4 style={ProductsStyling.product_description}>A lighter way to show them how you feel</h4>
                         </div>
-                     </div>
+                    </div>
                     
                 </div>
             </div>
