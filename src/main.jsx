@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import Products from './components/Products.jsx'
 import {createBrowserRouter, Router, RouterProvider} from "react-router-dom"
+import Showcase from "./components/Showcase.jsx"
 
 
 const router = createBrowserRouter([
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/products",
     element: <Products/>
+  },
+  {
+    path: "/showcase",
+    element: <Showcase/>
   }
 ])
 

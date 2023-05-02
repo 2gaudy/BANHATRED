@@ -31,7 +31,8 @@ function Products(){
             width: "10%",
             display: "flex",
             flexDirection: "column",
-            justifyContent: "space-evenly"
+            justifyContent: "space-evenly",
+            alignItems: "center"
         },
         product_image: {
            
@@ -52,19 +53,24 @@ function Products(){
             <div style={ProductsStyling.container}>
                 <div style={ProductsStyling.items}>
                     <div style={ProductsStyling.product}>
-                        <img style={ProductsStyling.product_image} src="https://picsum.photos/200"></img>
-                        <div style={ProductsStyling.product_container}>
-                            <h3 style={ProductsStyling.product_description}>BANHATRED Hoodie - $200</h3>
-                            <h4 style={ProductsStyling.product_description}>For those colder hate-filled days</h4>
-                        </div>
+                        <a href="/showcase">
+                            <img style={ProductsStyling.product_image} src="https://picsum.photos/200"></img>
+                            <div style={ProductsStyling.product_container}>
+                                <h3 style={ProductsStyling.product_description}>BANHATRED Hoodie - $200</h3>
+                                <h4 style={ProductsStyling.product_description}>For those colder hate-filled days</h4>
+                            </div>
+
+                        </a>
                         
                     </div>
                     <div style={ProductsStyling.product}>
-                        <img style={ProductsStyling.product_image} src="https://picsum.photos/200"></img>
-                        <div style={ProductsStyling.product_container}>
-                            <h3 style={ProductsStyling.product_description}>BANHATRED T-Shirt - $200</h3>
-                            <h4 style={ProductsStyling.product_description}>A lighter way to show them how you feel</h4>
+                        <a href="/showcase">
+                            <img style={ProductsStyling.product_image} src="https://picsum.photos/200"></img>
+                            <div style={ProductsStyling.product_container}>
+                                <h3 style={ProductsStyling.product_description}>BANHATRED T-Shirt - $200</h3>
+                                <h4 style={ProductsStyling.product_description}>A lighter way to show them how you feel</h4>
                         </div>
+                        </a>
                     </div>
                     
                 </div>
